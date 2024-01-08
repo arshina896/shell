@@ -1,0 +1,7 @@
+echo give the number
+read n
+if [ $n/2 == 0 ]
+then 
+echo thisnumber is even 
+else
+echo this number is odd
