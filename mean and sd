@@ -1,0 +1,8 @@
+echo give 3 numbers
+read a
+read b
+read c
+m=$( echo"($a+$b+$c)/3" |bc )
+sd=$( echo"(sqrt(($a-$m)^2+($b-$m)^2+($c-$m)" |bc)
+echo the mean = $m
+echo SD = $sd
